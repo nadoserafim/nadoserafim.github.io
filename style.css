@@ -21,6 +21,8 @@
      display: flex;
      justify-content: center;
      flex-direction: column;
+     color: #ffffff;
+     font-family:Arial, Helvetica, sans-serif;
 }
  .title {
      width: 100%;
