@@ -189,10 +189,10 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Menu de navegaÁ„o
+# Menu de navega√ß√£o
 --------------------------------------------------------------*/
 /**
-* NavegaÁ„o Desktop 
+* Navega√ß√£o Desktop 
 */
 .navbar {
   padding: 0;
@@ -264,7 +264,7 @@ h6 {
 }
 
 /**
-* NavegaÁ„o Mobile 
+* Navega√ß√£o Mobile 
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -335,7 +335,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# SeÁ„o geral
+# Se√ß√£o geral
 --------------------------------------------------------------*/
 section {
   overflow: hidden;
@@ -479,7 +479,7 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Habilidades (n„o est· sendo mais usado)
+# Habilidades (n√£o est√° sendo mais usado)
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -515,7 +515,7 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Interesses (N„o est· sendo mais usado atualmente)
+# Interesses (N√£o est√° sendo mais usado atualmente)
 --------------------------------------------------------------*/
 .interests .icon-box {
   display: flex;
@@ -684,7 +684,7 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# ServiÁos
+# Servi√ßos
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
@@ -761,6 +761,24 @@ section .container {
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
   color: #fff;
+}
+
+.embed-container {
+ position: relative;
+ padding-bottom: 56.25%;
+ height: 0;
+ overflow: hidden;
+ max-width: 100%;
+ height: auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -1163,7 +1181,7 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# CrÈditos
+# Cr√©ditos
 --------------------------------------------------------------*/
 .credits {
   position: fixed;
