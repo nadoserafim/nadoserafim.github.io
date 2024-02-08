@@ -14,13 +14,13 @@ body::before {
   position: fixed;
   background: #040404 url("../img/bg.jpg") no-repeat;
   background-size: cover;
-  left: -80px;
+  left: -200px;
   right: 0;
   top: 0;
   height: 100vh;
   z-index: -1;
   margin: 0;
-  width: 121vw;
+  width: 148vw;
 }
 
 #fade-container {
@@ -33,7 +33,7 @@ body::before {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 100;
+  z-index: 1000;
 }
 
 @media (min-width: 1024px) {
