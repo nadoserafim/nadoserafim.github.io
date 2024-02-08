@@ -1178,6 +1178,11 @@ section .container {
   background: #15bb62;
 }
 
+.imagem-whatsapp {
+  width: 25vw;
+  margin: 0 auto;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1195,6 +1200,12 @@ section .container {
 
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .imagem-whatsapp {
+    width: 80vw;
   }
 }
 
