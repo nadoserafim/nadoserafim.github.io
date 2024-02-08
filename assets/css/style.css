@@ -14,13 +14,13 @@ body::before {
   position: fixed;
   background: #040404 url("../img/bg.jpg") no-repeat;
   background-size: cover;
-  left: -200px;
+  left: -250px;
   right: 0;
   top: 0;
   height: 100vh;
   z-index: -1;
   margin: 0;
-  width: 200vw;
+  width: 300vw;
 }
 
 #fade-container {
