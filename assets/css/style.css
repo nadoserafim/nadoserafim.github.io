@@ -21,6 +21,24 @@ body::before {
   z-index: -1;
 }
 
+#loading {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding-top: 20%;
+  font-size: 20px;
+}
+
+#loading img {
+  width: 100px; /* ajuste conforme necessário */
+  height: 100px; /* ajuste conforme necessário */
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
