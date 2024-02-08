@@ -20,7 +20,7 @@ body::before {
   height: 100vh;
   z-index: -1;
   margin: 0;
-  width: 148vw;
+  width: 200vw;
 }
 
 #fade-container {
