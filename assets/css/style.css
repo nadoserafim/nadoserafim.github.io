@@ -23,14 +23,14 @@ body::before {
 
 #fade-container {
   position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
   background: #ccc;
-}
-#fade-container img {
-text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 1024px) {
