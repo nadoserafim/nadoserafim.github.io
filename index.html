@@ -998,7 +998,7 @@
       var loadingMessage = document.querySelector("#loading-message");
 
       setTimeout(function () {
-        loadingMessage.textContent = "<h2>Está quase lá, estamos fazendo a passagem final e em instantes estará tudo pronto</h2>";
+        loadingMessage.innerHTML = "<h2>Está quase lá, estamos fazendo a passagem final e em instantes estará tudo pronto</h2>";
         setTimeout(function () {
           fadeContainer.style.display = "none";
         }, 2000); // Tempo adicional antes de ocultar o container
