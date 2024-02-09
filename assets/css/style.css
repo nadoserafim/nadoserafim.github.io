@@ -34,6 +34,11 @@ body::before {
   align-items: center;
   justify-content: center;
   z-index: 1000;
+  flex-direction: column; /* Adicionando direção da coluna para posicionar a mensagem acima do gif */
+}
+
+#loading-message {
+  margin-bottom: 20px; /* Adicionando margem inferior para separar a mensagem do gif */
 }
 
 @media (min-width: 1024px) {

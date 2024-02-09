@@ -35,7 +35,9 @@
 <body>
 
   <div id="fade-container">
-    <img src="assets/img/Carregando.gif">
+    <div id="loading-message">Aguarde. Estamos afinando os instrumentos.</div>
+    <img
+      src="https://s2-techtudo.glbimg.com/9KDOFGhQoJncE4t0Z5yqJP46664=/0x0:600x338/600x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/x/M/uHh7v7RAushAL6pNKsaQ/afinador-google.gif">
   </div>
 
   <!-- ======= Cabeçalho ======= -->
@@ -989,16 +991,17 @@
 
   <script>
     window.addEventListener("load", function () {
-
       var fadeContainer = document.querySelector("#fade-container");
+      var loadingMessage = document.querySelector("#loading-message");
 
       setTimeout(function () {
-
-        fadeContainer.style.display = "none";
-
+        loadingMessage.textContent = "Está quase lá, estamos fazendo a passagem final e em instantes estará tudo pronto";
+        setTimeout(function () {
+          fadeContainer.style.display = "none";
+        }, 2000); // Tempo adicional antes de ocultar o container
       }, 1000);
-
     });
+
   </script>
 
 </body>
