@@ -57,7 +57,6 @@
             <li><a class="nav-link" href="#fotos"><b>Fotos</b></a></li>
             <li><a class="nav-link" href="#video"><b>Vídeos</b></a></li>
             <li><a class="nav-link" href="#contato"><b>Contato</b></a></li>
-            <li><a class="nav-link" href="#privacidade"><b>Privacidade</b></a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -902,6 +901,7 @@
     -->
 
     </div>
+    <li><a class="nav-link" href="#privacidade"><b>Privacidade</b></a></li>
   </section><!-- Contato Fim -->
 
   <section id="privacidade" class="privacidade">
@@ -998,13 +998,11 @@
       var loadingMessage = document.querySelector("#loading-message");
 
       setTimeout(function () {
-        // Atualiza a mensagem quando o site tiver carregado 75%
         loadingMessage.innerHTML = "<h2>Está quase lá, estamos fazendo a passagem final e em instantes estará tudo pronto</h2>";
-      }, 0.75 * performance.timing.domContentLoadedEventEnd); // 75% do carregamento
-
-      setTimeout(function () {
-        fadeContainer.style.display = "none";
-      }, performance.timing.domContentLoadedEventEnd + 2000); // Oculta o container após um tempo adicional
+        setTimeout(function () {
+          fadeContainer.style.display = "none";
+        }, 2000); // Tempo adicional antes de ocultar o container
+      }, 1000);
     });
   </script>
 
