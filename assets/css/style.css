@@ -39,6 +39,7 @@ body::before {
 
 #loading-message {
   margin-bottom: 20px;
+  color: #444444;
 }
 
 @media (min-width: 1024px) {
